@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="50%" stop-color="#1e3a8a" />
+      <stop offset="100%" stop-color="#172554" />
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fef08a" />
+      <stop offset="50%" stop-color="#f59e0b" />
+      <stop offset="100%" stop-color="#d97706" />
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="100%" stop-color="#2563eb" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Outer Rounded Shield / Rounded Rectangle -->
+  <rect width="512" height="512" rx="112" fill="url(#bgGrad)" />
+  
+  <!-- Subtle Glowing Ring -->
+  <circle cx="256" cy="256" r="210" fill="none" stroke="#38bdf8" stroke-width="4" stroke-opacity="0.3" stroke-dasharray="8 8" />
+  
+  <!-- Graduation Cap & Knowledge Torch / Book Emblem -->
+  <!-- Open Book Base -->
+  <path d="M120 330 C180 300 240 310 256 340 C272 310 332 300 392 330 L392 250 C332 220 272 230 256 260 C240 230 180 220 120 250 Z" fill="#ffffff" fill-opacity="0.95" />
+  <path d="M256 260 L256 340" stroke="#0f172a" stroke-width="4" stroke-linecap="round" />
+  
+  <!-- Graduation Cap Top -->
+  <polygon points="256,120 380,180 256,225 132,180" fill="url(#goldGrad)" />
+  <!-- Cap Skull Base -->
+  <path d="M185 200 L185 240 C185 270 327 270 327 240 L327 200" fill="none" stroke="#f59e0b" stroke-width="12" stroke-linecap="round" />
+  <!-- Tassel -->
+  <path d="M380 180 L395 240" stroke="#fef08a" stroke-width="6" stroke-linecap="round" />
+  <circle cx="397" cy="245" r="7" fill="#f59e0b" />
+
+  <!-- Emblem Monogram: AAE -->
+  <text x="256" y="415" text-anchor="middle" font-family="'Plus Jakarta Sans', system-ui, -apple-system, sans-serif" font-weight="900" font-size="44" fill="#ffffff" letter-spacing="4">AAE</text>
+  <text x="256" y="450" text-anchor="middle" font-family="'Plus Jakarta Sans', system-ui, -apple-system, sans-serif" font-weight="700" font-size="20" fill="#38bdf8" letter-spacing="6">EDUCATION</text>
+</svg>

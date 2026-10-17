@@ -1,0 +1,6 @@
+{
+  "name": "AAE Education",
+  "description": "AAE Education provides complete syllabus for all State and Central government exams, structured practice sessions, CBT quizzes with performance tracking and detailed analytics, 100% offline study materials, and full scholarship exam details.",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
